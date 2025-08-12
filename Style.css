@@ -39,7 +39,7 @@ body {
 }
 .hero-image img {
   width: 100%;
-  max-width: 350px;
+  max-width: 250px;
 }
 .cta-button {
   display: inline-block;
@@ -169,4 +169,5 @@ footer nav a:hover {
   .feature-list {
     flex-direction: column;
   }
+
 }
