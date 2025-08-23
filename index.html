@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -390,7 +392,23 @@
         padding: 2rem 1rem;
       }
     }
-  </style>
+  
+/* Customized for Conferences overrides */
+#customized .feature {
+  background: none; /* clean look without gray box */
+  padding: 0;
+}
+#customized img {
+  width: 100%;
+  max-width: 400px; /* same size as mockup */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  margin: 0 auto;
+  display: block;
+}
+
+</style>
 </head>
 <body>
   <!-- Header Navigation -->
@@ -435,6 +453,21 @@
   </section>
 
   <!-- Feature Highlights -->
+  
+  <!-- Customized for Conferences -->
+  <section class="features" id="customized">
+    <h2>Customized for Conferences</h2>
+    <div class="feature-list">
+      <div class="feature">
+        <img src="CES.png" alt="CES Conference Screenshot" />
+      </div>
+      <div class="feature">
+        <img src="the20_new.png" alt="The20 Conference Screenshot" />
+      </div>
+    </div>
+  </section>
+
+
   <section class="features" id="features">
     <h2>Why Nudge?</h2>
     <div class="feature-list">
@@ -472,6 +505,7 @@
     </blockquote>
   </section>
   -->
+
 
   <!-- Feedback -->
   <section class="feedback" id="feedback">
